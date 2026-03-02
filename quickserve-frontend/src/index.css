@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Manrope", "Segoe UI", sans-serif;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800;
+}
+
+.gradient-hero {
+  background: linear-gradient(180deg, #f8fbff 0%, #f8fafc 60%, #f1f5f9 100%);
+}
+
+.container-max {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply text-2xl font-semibold tracking-tight text-slate-900;
+}
